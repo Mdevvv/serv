@@ -2,7 +2,7 @@
 ### Portal low poly captcha
 
 lien du site web qui utilisera ce captcha : [https://github.com/LINLeoo/NDI.git](https://github.com/LINLeoo/NDI.git)
-pour un soucis d'herbergement il n'y a que le captcha.f
+pour un soucis d'herbergement il n'y a que le captcha.
 
 ## Description
 Game Cha est une application qui utilise Express pour créer un serveur simple en Node.js.
