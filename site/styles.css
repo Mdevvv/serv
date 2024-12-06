@@ -1,0 +1,145 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #87CEEB; /* Ciel bleu */
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position:fixed;
+    width: 100%;
+    border:solid 2px black;
+    background: black;
+    z-index: 1;
+}
+
+.nav img{
+    width: 300px;
+    padding:0;
+
+}
+
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 2em;
+    margin-right: 50px;
+}
+
+.bigText{
+    font-size: 5em;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+
+
+.ocean {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    background: linear-gradient(to top, #1e90ff, #00bfff); 
+    overflow: hidden;
+
+}
+
+
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: wave-animation 5s ease-in-out infinite;
+}
+
+.wave1 {
+    animation-delay: -2s;
+    opacity: 0.7;
+    top: -15px; 
+    animation-timing-function: ease-in-out;
+}
+
+.wave2 {
+    animation-delay: -4s;
+    opacity: 0.5;
+    top: 10px; 
+    animation-timing-function: linear;
+}
+
+.wave3 {
+    animation-delay: -6s;
+    opacity: 0.3;
+    top: 30px; 
+    animation-timing-function: ease-in-out;
+}
+
+.wave4 {
+    animation-delay: -6s;
+    opacity: 0.2;
+    top: 50px; 
+    animation-timing-function: linear;
+}
+
+/* Animation des vagues */
+@keyframes wave-animation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.corps-humain {
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    height: 1000px;
+    width: 100%;
+}
+
+.zoom-image {
+    max-width: 50%;
+    width: 200px;
+    transition: transform 0.5s ease;
+}
+
+.right-text {
+    width: 30%;
+    /*opacity: 0;*/
+    transition: opacity 0.5s ease;
+    text-align: justify;
+    background-color: rgb(255,255,255,0.5);
+    padding : 10px;
+    border-radius: 2px;
+    z-index: 999;
+}
+
+#diapo{
+    width: 30%;
+}
+#corps{
+    max-width: 33vw   ;
+
+}
