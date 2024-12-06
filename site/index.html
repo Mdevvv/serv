@@ -3,55 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciel et Océan avec Vagues Animées</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesConnexion.css">
+    <title>Login</title>
 </head>
-<header class="header">
-    <div class="nav">
-        <div>
-            <img src="/img/navLogo.png" alt="logo">
-        </div>
-        <div>
-            <ul>
-                <a href="">CookieClicker</a>
-                <a href="">Captcha</a>
-                <a href="">API</a>
-            </ul>
-        </div>
-
-    </div>
-</header>
 <body>
-    <div class="header">
-        <div class="nav">
-            <div>
-                <img src="img/navLogo.webp" alt="logo">
-            </div>
-            <ul>
-                <li><a href="">MAIN</a></li>
-                <li><a href="">TEST</a></li>
-            </ul>
-        </div>
+
+<h2>S'inscrire</h2>
+
+<form action="" method="POST">
+    <div>
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" id="username" name="username" placeholder="Entrez votre nom d'utilisateur" required>
     </div>
 
-    <div class="ocean">
-        <div class="waves">
-            <div class="wave wave1"></div>
-            <div class="wave wave2"></div>
-            <div class="wave wave3"></div>
-            <div class="wave wave4"></div>
-        </div>
+    <div>
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+        <p>GAME CHA - Play like portal game in low poly to justify you are not a robot</p>
+        <iframe  scrolling="no" src="./captaGame/index.html" frameborder="0"></iframe>
+    </div>
 
-        <div class="corps-humain">
-            <img id= "diapo" src="img/cover.jpg" alt="">
-
-            <img id="corps" src="img/Corps-peau-humain.png" alt="Corps Humain" class="zoom-image">
-            <div class="right-text">
-            </div>
-        </div>
-    </div>    
-
-    <script src="script.js"></script>
+    <button type="submit">S'inscrire</button>
+</form>
 
 </body>
 </html>
