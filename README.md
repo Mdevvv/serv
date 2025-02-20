@@ -30,7 +30,3 @@ Avant de pouvoir installer et exécuter l'application, assurez-vous d'avoir Node
 ```bash
 npm start
 ```
-
-## Autors
-Mathias GILLET
-Chuaib MEZIANE
